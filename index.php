@@ -27,8 +27,7 @@
             <button> <a class="navbar-brand" href="#">Projects</a></button>
             <button><a class="navbar-brand" href="#">Contact Me</a></button>
             <button><a class="navbar-brand" href="#">Contact Me</a></button>
-            test branch
-            ok branch
+
         </div>
         </div>
     </nav>
