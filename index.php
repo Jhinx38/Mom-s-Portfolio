@@ -26,7 +26,8 @@
             <button><a class="navbar-brand" href="#">Profile</a></button>
             <button> <a class="navbar-brand" href="#">Projects</a></button>
             <button><a class="navbar-brand" href="#">Contact Me</a></button>
-            
+            <button><a class="navbar-brand" href="#">Contact Me</a></button>
+            okeii
         </div>
         </div>
     </nav>
