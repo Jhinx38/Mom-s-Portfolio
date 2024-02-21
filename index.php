@@ -20,7 +20,7 @@
     <nav class="navbar sticky-top bg-body-tertiary">
         <div class="container-left">
         <div>
-            
+            ok
             <button><a class="navbar-brand" href="#">EZ Empire</a></button>
             <button><a class="navbar-brand" href="#">Fixed top</a></button>
             <button><a class="navbar-brand" href="#">Profile</a></button>
