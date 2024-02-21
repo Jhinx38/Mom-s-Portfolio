@@ -19,11 +19,13 @@
 
     <nav class="navbar sticky-top bg-body-tertiary">
         <div class="container-left">
+        <div>
             <button><a class="navbar-brand" href="#">EZ Empire</a></button>
             <button><a class="navbar-brand" href="#">Fixed top</a></button>
             <button><a class="navbar-brand" href="#">Profile</a></button>
             <button> <a class="navbar-brand" href="#">Projects</a></button>
             <button><a class="navbar-brand" href="#">Contact Me</a></button>
+        </div>
         </div>
     </nav>
 
