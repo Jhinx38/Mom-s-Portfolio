@@ -2,39 +2,47 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>profile</title>
+  <?php include 'header.php'; ?>
 
-    <!-- This is the imprted Boostrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <script></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/items/ezLogo.jpg" rel="icon">
+  <title>Profile</title>
 
+  <!-- This is the imprted Boostrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+  <style>
+    .cardbox {
+      background: black;
+      color: white;
+    }
+  </style>
 </head>
 
-<body>
-    <!-- This is the imprted Boostrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<body style="height: 10000px;">
+  <!-- This is the imprted Boostrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 
-
-    <nav class="navbar sticky-top bg-body-tertiary">
-        <div class="container-left">
-        <div>
-            
-
-            <button><a class="navbar-brand" href="#">EZ Empire</a></button>
-            <button><a class="navbar-brand" href="#">Fixed top</a></button>
-            <button><a class="navbar-brand" href="#">Profile</a></button>
-            <button> <a class="navbar-brand" href="#">Projects</a></button>
-            <button><a class="navbar-brand" href="#">Contact Me</a></button>
-            <button><a class="navbar-brand" href="#">Contact Me</a></button>
-
-
-            okkk
+  <!-- cards using bootstrap -->
+  <div class="container-sm text-center cardbox">
+    <div class="row">
+      <div class="card" style="width: 18rem;">
+        <img src="" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
         </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
         </div>
-    </nav>
+      </div>
+    </div>
 
+
+  </div>
 </body>
 
 </html>
